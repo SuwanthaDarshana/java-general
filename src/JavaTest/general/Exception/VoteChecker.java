@@ -1,5 +1,7 @@
 package JavaTest.general.Exception;
 
+import java.util.Scanner;
+
 public class VoteChecker {
 
     public static void checkAge(int age) throws InvalidAgeException {
@@ -11,8 +13,14 @@ public class VoteChecker {
     }
 
     public static void main(String[] args) {
+
+        System.out.print("Enter your age: ");
+
+        Scanner scanner = new Scanner(System.in);
+        int age =scanner.nextInt();
+
         try {
-            checkAge(15);
+            checkAge(age);
         } catch (InvalidAgeException e) {
             System.out.println("Caught an exception: " + e.getMessage());
         }
