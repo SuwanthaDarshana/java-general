@@ -6,7 +6,7 @@ public class Car {
     int year;
     String color;
 
-    Car(String brandName, int yearMade, String colorBody) {
+    public Car(String brandName, int yearMade, String colorBody) {
         brand = brandName;
         year = yearMade;
         color = colorBody;
@@ -16,7 +16,7 @@ public class Car {
 
     }
 
-    void displayDetails(){
+    public void displayDetails(){
         System.out.println("Brand: " + brand);
         System.out.println("Year: " + year);
         System.out.println("Color: " + color);
