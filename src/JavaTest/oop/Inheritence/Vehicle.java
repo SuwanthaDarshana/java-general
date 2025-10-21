@@ -30,4 +30,8 @@ public class Vehicle {
         System.out.println("Vehicle is moving");
     }
 
+    public void stop() {
+        System.out.println("Vehicle is stopped");
+    }
+
 }

@@ -22,11 +22,16 @@ class Cat extends Animal {
 
 public class Main {
     public static void main(String[] args) {
+
+        Animal animal = new Animal();
+        animal.sound();
+
+
         Animal myAnimal = new Dog();   // Reference type = Animal, Object type = Dog
         myAnimal.sound();              // Calls Dog's sound()
 
-        myAnimal = new Cat();          // Now it's a Cat
-        myAnimal.sound();              // Calls Cat's sound()
+       Animal myAnimal2 = new Cat();
+        myAnimal2.sound();              // Calls Cat's sound()
     }
 }
 

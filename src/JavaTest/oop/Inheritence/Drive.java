@@ -14,5 +14,10 @@ public class Drive {
         System.out.println("Type: " + vehicle.getType());
         System.out.println("Speed: " + vehicle.getSpeed());
 
+        System.out.println(" ");
+        car.stop();
+        System.out.println(" ");
+        vehicle.stop();
+
     }
 }
