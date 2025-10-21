@@ -1,4 +1,4 @@
-package JavaTest.oop.Intertence.multiLevelInheritence;
+package JavaTest.oop.Inheritence.multiLevelInheritence;
 
 public class Garage {
     public static void main(String[] args) {

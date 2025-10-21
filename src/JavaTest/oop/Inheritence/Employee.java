@@ -1,4 +1,4 @@
-package JavaTest.oop.Intertence;
+package JavaTest.oop.Inheritence;
 
 public class Employee extends Person{
     private int employeeId;

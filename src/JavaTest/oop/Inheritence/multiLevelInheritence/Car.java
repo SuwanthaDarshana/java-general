@@ -1,4 +1,4 @@
-package JavaTest.oop.Intertence.multiLevelInheritence;
+package JavaTest.oop.Inheritence.multiLevelInheritence;
 
 public class Car extends  Vehicle {
     private int doors;

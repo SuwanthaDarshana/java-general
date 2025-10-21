@@ -1,4 +1,4 @@
-package JavaTest.oop.Intertence;
+package JavaTest.oop.Inheritence;
 
 public class Person {
     private String name;  //properties

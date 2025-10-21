@@ -1,4 +1,4 @@
-package JavaTest.oop.Intertence;
+package JavaTest.oop.Inheritence;
 
 public class Example {
     public static void main(String[] args) {
