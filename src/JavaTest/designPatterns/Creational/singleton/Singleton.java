@@ -1,4 +1,4 @@
-package JavaTest.designPatterns.Creational;
+package JavaTest.designPatterns.Creational.singleton;
 
 public class Singleton {
 
