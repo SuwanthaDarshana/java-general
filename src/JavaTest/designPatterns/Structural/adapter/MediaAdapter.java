@@ -1,4 +1,4 @@
-package JavaTest.designPatterns.Structural.example1;
+package JavaTest.designPatterns.Structural.adapter;
 
 public class MediaAdapter implements MediaPlayer {
 
