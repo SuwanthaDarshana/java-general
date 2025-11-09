@@ -1,4 +1,4 @@
-package JavaTest;
+package JavaTest.datastructure;
 
 public class PrimeNumberCheck {
 
