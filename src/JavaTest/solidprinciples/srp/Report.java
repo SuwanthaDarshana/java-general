@@ -1,5 +1,5 @@
 package JavaTest.solidprinciples.srp;
-/*
+
 
 // Wrong
 
@@ -11,6 +11,7 @@ public class Report {
 
 }
 
+/*
 
 // Correct
 
