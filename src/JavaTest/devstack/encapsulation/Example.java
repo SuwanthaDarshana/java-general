@@ -1,4 +1,4 @@
-package JavaTest.devstack;
+package JavaTest.devstack.encapsulation;
 
 public class Example {
     private String name;
