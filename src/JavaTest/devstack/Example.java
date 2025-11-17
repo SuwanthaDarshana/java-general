@@ -34,4 +34,10 @@ public class Example {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    void printData(){
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Address: " + address);
+    }
 }
