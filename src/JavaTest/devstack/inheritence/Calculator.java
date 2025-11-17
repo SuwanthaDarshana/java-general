@@ -1,4 +1,7 @@
 package JavaTest.devstack.inheritence;
 
-public class Calculator {
+import javax.swing.*;
+
+public class Calculator extends JFrame {
+
 }
