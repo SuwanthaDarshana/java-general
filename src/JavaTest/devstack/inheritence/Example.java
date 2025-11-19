@@ -35,7 +35,7 @@ public class Example  {
         fish.makeNoise();
 
 
-        Animal animal = new Dog(); //Dynamic method dispatch (Runtime Polymorphism)
+        Animal animal = new Dog(); //Dynamic method dispatch (Runtime Polymorphism/ Overriding)  ---- // Parent reference, Child object
         animal.makeNoise();
     }
 }
