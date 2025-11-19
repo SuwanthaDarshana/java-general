@@ -4,6 +4,10 @@ class Animal {
     public void sound() {
         System.out.println("Animal makes a sound");
     }
+
+    public Animal sleep(){
+        return this;
+    }
 }
 
 class Dog extends Animal {
@@ -11,6 +15,12 @@ class Dog extends Animal {
     public void sound() {
         System.out.println("Dog barks");
     }
+
+    @Override
+    public Dog  sleep(){  //covariant return type
+        return this;
+    }
+
 }
 
 
