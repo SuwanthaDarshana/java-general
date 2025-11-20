@@ -3,9 +3,9 @@ package JavaTest.general.Collectionframework.list;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Example {
+public class ArrayList {
     public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<>();
+        java.util.ArrayList<String> list = new java.util.ArrayList<>();
         list.add("java");
         list.add("python");
         list.add("c++");
