@@ -39,6 +39,9 @@ public class Linkedlist {
 
         linkedList.addFirst("java");
         System.out.println(linkedList);
+
+        linkedList.addLast("c");
+        System.out.println(linkedList);
     }
 
 }
