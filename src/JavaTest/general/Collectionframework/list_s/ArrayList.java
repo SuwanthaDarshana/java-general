@@ -1,8 +1,5 @@
 package JavaTest.general.Collectionframework.list;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ArrayList {
     public static void main(String[] args) {
         java.util.ArrayList<String> list = new java.util.ArrayList<>();
@@ -29,6 +26,8 @@ public class ArrayList {
             System.out.println(temp);
         }
         System.out.println("-----------------");
+
+        System.out.println(list.get(0));
 
 
     }
