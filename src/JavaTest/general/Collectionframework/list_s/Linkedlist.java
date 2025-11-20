@@ -31,6 +31,9 @@ public class Linkedlist {
             System.out.println(temp);
         }
         System.out.println("-----------------");
+
+        linkedList.set(0, "ruby");
+        System.out.println(linkedList);
     }
 
 }
