@@ -34,6 +34,11 @@ public class Linkedlist {
 
         linkedList.set(0, "ruby");
         System.out.println(linkedList);
+
+        System.out.println("-----------------");
+
+        linkedList.addFirst("java");
+        System.out.println(linkedList);
     }
 
 }
