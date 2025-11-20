@@ -27,7 +27,11 @@ public class ArrayList {
         }
         System.out.println("-----------------");
 
-        System.out.println(list.get(0));
+        System.out.println(list.get(0));  //accessing element
+        System.out.println("-----------------");
+        System.out.println(list.set(0, "Ruby")); //updating element
+        System.out.println(list);
+        System.out.println("-----------------");
 
 
     }
