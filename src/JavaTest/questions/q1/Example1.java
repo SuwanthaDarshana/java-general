@@ -5,9 +5,9 @@ package JavaTest.questions.q1;
 
 public class Example1 {
 
-    public static int[] findTwoNumbers(int[],target[]){
-
-    }
+//    public static int[] findTwoNumbers(int[],target[]){
+//
+//    }
 
     public static void main(String[] args) {
 //        int[] arr = {2, 7, 11, 15};
