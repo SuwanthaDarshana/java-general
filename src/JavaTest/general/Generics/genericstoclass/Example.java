@@ -1,5 +1,6 @@
 package JavaTest.general.Generics.genericstoclass;
 
+//Generic Class Example
 
 class OlBox<T>{
     private T item;
