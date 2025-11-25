@@ -1,5 +1,7 @@
 package JavaTest.general.Collectionframework.list;
 
+import java.util.Collections;
+
 public class ArrayList {
     public static void main(String[] args) {
         java.util.ArrayList<String> list = new java.util.ArrayList<>();
@@ -32,6 +34,15 @@ public class ArrayList {
         System.out.println(list.set(0, "Ruby")); //updating element
         System.out.println(list);
         System.out.println("-----------------");
+
+        Collections.sort(list);
+        System.out.println(list);
+        System.out.println("-----------------");
+        Collections.reverse(list);
+        System.out.println(list);
+        System.out.println("-----------------");
+        Collections.shuffle(list);
+        System.out.println(list);
 
 
     }
