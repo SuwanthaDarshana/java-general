@@ -1,11 +1,10 @@
-package JavaTest.general.Collectionframework.map.linkedhashmap;
+package JavaTest.general.Collectionframework.map.treemap;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
+import java.util.TreeMap;
 
 public class Example {
     public static void main(String[] args) {
-        LinkedHashMap<Integer,String> map = new LinkedHashMap<>();
+        TreeMap<Integer,String> map = new TreeMap<>();
         map.put(6,"Java");
         map.put(2,"Python");
         map.put(3,"C++");
@@ -15,8 +14,10 @@ public class Example {
         map.put(3,"Ruby");
 //        System.out.println(map);
 
-        for (int key: map.keySet()) {
-            System.out.println(map.get(key));
+        for(int i : map.keySet()){
+            System.out.println(map.get(i));
         }
     }
+
+
 }
