@@ -1,6 +1,4 @@
-package JavaTest.general.Generics;
-
-import java.util.ArrayList;
+package JavaTest.general.Generics.genericstoclass;
 
 
 class OlBox<T>{
