@@ -6,8 +6,13 @@ public class Example {
         try {
             int result = 10/num;
             System.out.println(result);
-        }catch (ArithmeticException e){
+            int[] arr = new int[5];
+            arr[20] = 10;
+        }catch (NullPointerException | ArithmeticException e){
+            System.out.println(e.getMessage());
             e.printStackTrace();
+        }finally {
+            System.out.println("Finally run");
         }
         System.out.println("End of the program");
 
