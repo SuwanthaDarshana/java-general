@@ -4,9 +4,13 @@ public class Example {
 
     public static void m1() throws RuntimeException {
         System.out.println("M1 Start");
-        int num = 0;
-        int result = 10 / num;
-        System.out.println(result);
+        try{
+            int num = 0;
+            int result = 10 / num;
+            System.out.println(result);
+        }catch (RuntimeException e){
+            throw new MyException(e.getMessage());
+        }
         System.out.println("M1 End");
     }
 
