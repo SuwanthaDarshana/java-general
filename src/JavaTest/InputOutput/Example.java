@@ -4,7 +4,7 @@ import java.io.File;
 
 public class Example {
     public static void main(String[] args) {
-        File f1 = new File("com");
+        File f1 = new File("com.txt");
         System.out.println("is exist:"+f1.exists());
         boolean isCreated = f1.mkdir();
         System.out.println("is created:"+isCreated);
